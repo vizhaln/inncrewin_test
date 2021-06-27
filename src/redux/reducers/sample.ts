@@ -4,7 +4,7 @@ export interface SampleState {
   counter: number;
 }
 
-export type SampleAction = unknown;
+export type SampleAction = any;
 
 const initialState: SampleState = {
   counter: 0,
